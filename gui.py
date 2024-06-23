@@ -143,7 +143,6 @@ def gerar_pdf():
             c.drawString(col_widths[i], vertical_pos, str(value))
         vertical_pos -= 30
 
-
     # Adicionando total
     c.setFont("Helvetica-Bold", 14)
     c.drawString(50, vertical_pos , f"Total: R$ {total:.2f}")
